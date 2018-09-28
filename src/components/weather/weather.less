@@ -1,0 +1,41 @@
+@import "~themes/default.css";
+@import "~themes/global.less";
+@import "~themes/variable.less";
+.weather {
+  width: @--one-uint-length * 750;
+  height: @--one-uint-length * 1200;
+  background: linear-gradient(yellow, white, blue);
+}
+.weather-icon {
+  display: flex;
+  box-shadow: 0 @--one-uint-length * 10 0 @light-greay;
+}
+li {
+  flex: 1;
+  color: black;
+}
+.date,
+.weather-detail, .wind, .tips {
+  text-align: center;
+  margin-top: @--one-uint-length * 20;
+  padding-top:@--one-uint-length * 20;
+}
+
+.tempeature {
+  text-align: center;
+  color: @pink;
+  font-size: @--one-uint-length * 100;
+  margin-top: @--one-uint-length * 20;
+  
+}
+.max-weather {
+  color: @blue;
+}
+.min-weather {
+  color: @yellow;
+}
+.weather-detail {
+  margin-top: @--one-uint-length * 20;
+}
+
+

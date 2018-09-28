@@ -1,0 +1,5 @@
+{
+  "name": "tabcontroller",
+  "main": "./tabcontroller.tsx",
+  "types": "./tabcontroller.tsx"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "customer-form",
+    "main": "./customer-form.tsx",
+    "types": "./customer-form.tsx"
+}

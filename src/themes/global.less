@@ -1,0 +1,75 @@
+/**
+ * 全局通用样式定义
+ */
+
+@import '~font/iconfont.less';
+@import './variable.less';
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  scrollbar-track-color: transparent;
+  scrollbar-face-color: #5d5d5d;
+  scrollbar-arrow-color: #5d5d5d;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #5d5d5d;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-resizer {
+  background-color: transparent;
+}
+
+.e-m-loading {
+  animation: e-m-loading 1000ms infinite linear;
+}
+
+@keyframes e-m-loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ /* 字号序列 ,1rem=100px,0.01rem就是1px,0.1rem就是10px，1rem就是100px*/
+@--one-uint-length:0.01rem;
+
+@--ten-uint-length:0.1rem;
+@--all-uint-length:1rem;
+@nav-item-color: #842210;
+@greay:#fff;
+@light-greay:#ccc;
+@icon-color:black;
+@light-blue:rgba(0, 238, 255, 0.651);
+@purple:purple;
+@blue:rgb(46, 46, 216);
+@yellow:rgba(255, 94, 0, 0.863);
+@white:white;
+@orange:rgb(228, 74, 13);
+@pink:rgb(238, 16, 53);

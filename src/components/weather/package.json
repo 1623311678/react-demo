@@ -1,0 +1,5 @@
+{
+    "name": "weather",
+    "main": "./weather.tsx",
+    "types": "./weather.tsx"
+}

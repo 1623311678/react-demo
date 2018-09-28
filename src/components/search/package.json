@@ -1,0 +1,5 @@
+{
+    "name": "search",
+    "main": "./search.tsx",
+    "types": "./search.tsx"
+}

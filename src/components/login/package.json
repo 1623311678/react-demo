@@ -1,0 +1,5 @@
+{
+    "name": "login",
+    "main": "./login.tsx",
+    "types": "./login.tsx"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "iscroll-probe",
+  "version": "5.2.0",
+  "description": "iscroll-probe hack version",
+  "main": "./iscroll-probe.js"
+}

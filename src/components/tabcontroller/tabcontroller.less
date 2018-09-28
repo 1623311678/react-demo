@@ -1,0 +1,40 @@
+.nav-tab {
+  width: 560px;
+  box-sizing: border-box;
+  position: relative;
+  top: -10px;
+  border-bottom: none;
+  text-align: center;
+  margin-top: 14px;
+  margin-right: 203px;
+  cursor: pointer;
+}
+.tab-title {
+  padding-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 60px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.tab-title:last-child {
+  border-right: none;
+}
+.tab-content {
+  display: none;
+  width: 560px;
+  box-sizing: border-box;
+  &.shown {
+    display: block;
+  }
+}
+
+.tab-title-shown {
+  border-bottom: 2px solid#1989FA;
+  color: #1989fa;
+}
+
+.scroll {
+  width: 560px;
+  height: 742px;
+  overflow-x: hidden;
+}

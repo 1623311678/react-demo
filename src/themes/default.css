@@ -1,0 +1,32 @@
+:root {
+  /* 字号序列 ,1rem=100px,0.01rem就是1px,0.1rem就是10px，1rem就是100px*/
+  
+  /* 文字颜色序列 */
+  --text-color-primary: #ffffff;
+  --text-color-secondary: color(var(--text-color-primary) alpha(60%));
+  --text-color-tertiary: color(var(--text-color-primary) alpha(40%));
+  --text-color-active: #2193ff;
+
+  /* 背景颜色序列 */
+  --background-color-primary: #4d4d4d;
+  --background-color-secondary: #3b3b3b;
+  --background-color-tertiary: #383838;
+  --background-color-quaternary: #303030;
+  --background-color-quinary: #262626;
+  --background-color-active: #2193ff;
+
+  /* 边框颜色序列 */
+  --border-color-primary: #141414;
+  --border-color-secondary: #1c1c1c;
+  --border-color-tertiary: #292929;
+  --border-color-quaternary: #575757;
+  --border-color-active: #2193ff;
+
+  /***全局界面变量***/
+  --body-min-width: 12.80rem;
+  --body-backcolor: #1a1a1a;
+
+  /***导航条变量***/
+  --header-height: 0.56rem;
+  
+}
