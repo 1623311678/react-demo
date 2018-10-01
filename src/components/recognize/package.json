@@ -1,0 +1,5 @@
+{
+    "name": "recognize",
+    "main": "./recognize.tsx",
+    "types": "./recognize.tsx"
+}

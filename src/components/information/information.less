@@ -1,24 +1,66 @@
 .information {
-  width: 401px;
+  /*width: 401px;*/
+  width: 150px;
+
   height: 465px;
   background-color: #ffffff;
   box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.14);
   margin-left: 500px;
   margin-top: -300px;
+  position: relative;
+
   .information-top {
     width: 401px;
     height: 164px;
     background-color: #97ce68;
     border-radius: 10px 10px 0 0;
+    .information-avatar {
+      width: 122px;
+      height: 122px;
+      background-color: #97ce68;
+      border: solid 1px #ffffff;
+      left: 20px;
+      top: 20px;
+      right: 20px;
+      border-radius: 50%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .avatar-content {
+        width: 98px;
+        height: 98px;
+        background-color: #edede4;
+
+        border-radius: 50%;
+      }
+    }
+    .avatar-text {
+      width: 150px;
+      height: 21px;
+      font-family: SourceSansPro-Semibold;
+      font-size: 26px;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 21px;
+      letter-spacing: 0px;
+      color: #ffffff;
+      position: absolute;
+      left: 160px;
+      top: 73px;
+      white-space: nowrap;
+    }
   }
 
   .information-item {
-    width: 401px;
+    /*width: 401px;*/
+    width: 150px;
     height: 70px;
     margin-top: 6px;
     display: flex;
-    font-size: 20px;
     align-items: center;
+    font-size: 20px;
+
     .item-name {
       width: 90px;
       height: 18px;
@@ -29,19 +71,34 @@
       line-height: 21px;
       letter-spacing: 0px;
       color: #94846e;
+      display: flex;
+      align-items: center;
+
+      .item-text {
+        display: flex;
+        align-items: center;
+      }
+      .item-iconfont-icon {
+        font-size: 28px;
+        right: 0px;
+        position: absolute;
+      }
     }
   }
 }
 .information-item1 {
-  width: 401px;
+  /*width: 401px;*/
+  width: 150px;
   height: 70px;
   margin-top: 6px;
   display: flex;
-  font-size: 20px;
   align-items: center;
+  font-size: 20px;
+
   background-color: #edede4;
   opacity: 0.7;
-  border-left:6px solid  #ff6766;
+  border-left: 6px solid #ff6766;
+  display: flex;
 
   /*&.item-0 {
         background-color: #edede4;
@@ -56,4 +113,28 @@
     &.item-3 {
       
     }*/
+  .item-name {
+    display: flex;
+    align-items: center;
+
+    .item-text {
+      display: flex;
+      align-items: center;
+    }
+    .item-iconfont-icon {
+      color: #ff6766;
+      font-size: 28px;
+      right: 0px;
+      position: absolute;
+    }
+  }
+}
+.information-content {
+  width: 251px;
+  height: 301px;
+  background-color: chocolate;
+  position: absolute;
+  left: 150px;
+
+  top: 164px;
 }

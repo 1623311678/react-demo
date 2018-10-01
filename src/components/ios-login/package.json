@@ -1,0 +1,5 @@
+{
+    "name": "ios-login",
+    "main": "./ios-login.tsx",
+    "types": "./ios-login.tsx"
+}
