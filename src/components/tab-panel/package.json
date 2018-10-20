@@ -1,5 +1,0 @@
-{
-    "name": "tab-panel",
-    "main": "./tab-panel.tsx",
-    "types": "./tab-panel.tsx"
-}
