@@ -1,0 +1,5 @@
+{
+    "name": "information-menu",
+    "main": "./information-menu.tsx",
+    "types": "./information-menu.tsx"
+}

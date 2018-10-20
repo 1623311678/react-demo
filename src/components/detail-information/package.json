@@ -1,0 +1,5 @@
+{
+    "name": "detail-information",
+    "main": "./detail-information.tsx",
+    "types": "./detail-information.tsx"
+}

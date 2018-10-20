@@ -6,7 +6,10 @@ import Tabs from "components/tabs";
 import TabPanel from "components/tab-panel";
 import Information from "components/information";
 import IosLogin from "components/ios-login";
+import DetailInformation from "components/detail-information";
+import Vartar from "components/vartar";
 import Recognize from "components/recognize";
+
 import "./app.less";
 import { Switch } from "react-router";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
@@ -41,6 +44,8 @@ class App extends React.Component {
           <div>
             <Route exact path="/" component={IosLogin} />
             <Route path="/Recognize" component={Recognize} />
+            <Route match='match' path='/DetailInformation'  component={DetailInformation}/>
+            <Route path='/DetailInformation/Vartar'  component={Vartar}/>
           </div>
         </Router>
       </div>

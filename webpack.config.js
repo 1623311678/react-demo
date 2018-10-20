@@ -22,8 +22,7 @@ module.exports = {
   },
 
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use: {
@@ -40,31 +39,26 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "[name].[hash:10].[ext]"
-            }
+        use: [{
+          loader: "file-loader",
+          options: {
+            name: "[name].[hash:10].[ext]"
           }
-        ]
+        }]
       },
       {
         test: /\.(eot|ttf|woff)$/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "[name].[hash:10].[ext]"
-            }
+        use: [{
+          loader: "file-loader",
+          options: {
+            name: "[name].[hash:10].[ext]"
           }
-        ]
+        }]
       },
       {
         test: /\.tsx?$/,
         exclude: /node_modules/,
-        use: [
-          {
+        use: [{
             loader: "babel-loader"
           },
           {
@@ -87,8 +81,6 @@ module.exports = {
   ],
   devServer: {
     contentBase: path.join(__dirname, "dist"),
-    host: "172.16.13.69",
-
     port: 8055
   },
   devtool: "source-map"

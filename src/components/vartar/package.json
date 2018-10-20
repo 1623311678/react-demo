@@ -1,0 +1,5 @@
+{
+    "name": "vartar",
+    "main": "./vartar.tsx",
+    "types": "./vartar.tsx"
+}

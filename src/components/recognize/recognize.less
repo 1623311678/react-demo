@@ -1,5 +1,4 @@
 .recognize {
-
   position: fixed;
   top: 0;
   left: 0;
@@ -12,18 +11,77 @@
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-position: center 0;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  .recognize-image{ width: 100%;
-    height: 100%;}
-  .recognize-text {color:red;
+  .recognize-image {
+    width: 100%;
+    height: 100%;
+    .isMoveClass {
+      width: 100%;
+    }
+    .noMove {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .recognize-text {
+    color: red;
     position: absolute;
 
-font-size: 0.3rem;}
-}
-.image-turn{
-  width: 100%;
-    height: 100%;
-    transform:rotate(90deg);
+    font-size: 0.3rem;
+  }
+  .recognize-footer {
+    position: absolute;
+    color: white;
+    bottom: 1rem;
+    .recognize-icon {
+      margin-left: 34%;
+    }
+  }
+  .recognize-button {
+    position: absolute;
+    animation-name: recognize-button;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+
+    top: 20%;
+    a:-webkit-any-link {
+      color: white;
+      animation-name: recognize-color;
+      animation-duration: 5s;
+      animation-timing-function: linear;
+      animation-delay: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-play-state: running;
+    }
+    @keyframes recognize-color {
+      0% {
+        color: red;
+        font-size: 0.2rem;
+      }
+      25% {
+        color: yellow;
+        font-size: 0.25rem;
+      }
+      50% {
+        color: white;
+        font-size: 0.3rem;
+      }
+      75% {
+        color: green;
+        font-size: 0.25rem;
+      }
+      100% {
+        color: red;
+        font-size: 0.2rem;
+      }
+    }
+  }
+  
 }
