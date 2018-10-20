@@ -1,13 +1,7 @@
 .DS_Store
-.idea
-.eslintcache
-.vscode
 dist/
-logs
-var
 node_modules/
 npm-debug.log*
 config.json
 package-lock.json
-*.tar.gz
-dev.sh
+
