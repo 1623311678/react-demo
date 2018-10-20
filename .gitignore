@@ -2,10 +2,10 @@
 .idea
 .eslintcache
 .vscode
-dist
+dist/
 logs
 var
-node_modules
+node_modules/
 npm-debug.log*
 config.json
 package-lock.json
