@@ -1,0 +1,47 @@
+#image: mylerna:latest11112222
+stages:
+  - env
+  - build
+  - unitTest
+  - e2e
+  - deploy
+
+cache:
+  paths:
+  - node_modules/
+
+env:
+  stage: env
+  script:
+    - node -v
+    - npm -v
+    - lerna -v
+
+build:
+  stage: build
+   only:
+    - master
+  script:
+    - echo "*************start build****************"
+    - echo "*************end build****************"
+  artifacts:
+    paths:
+      - ./dist
+
+unitTest:
+  stage: unitTest
+  script:
+    - echo "****************start unitTest****************"
+    - echo "****************end unitTest****************"
+e2e:   
+  stage: e2e
+  script:
+    - echo "****************start e2e****************"
+    #- /home/runner-workspace/e2e.sh
+    - echo "****************end e2e****************"
+deploy:   
+  stage: deploy
+  script:
+    - echo "****************start deploy****************"
+
+    - echo "****************end deploy****************"

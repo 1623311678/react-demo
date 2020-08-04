@@ -2,8 +2,8 @@ import React from "react";
 import Login from "components/login";
 import Search from "components/search";
 import TabController from "components/tabcontroller";
-import Tabs from "components/tabs";
-import TabPanel from "components/tab-panel";
+// import Tabs from "components/tabs";
+// import TabPanel from "components/tab-panel";
 import Information from "components/information";
 import IosLogin from "components/ios-login";
 import DetailInformation from "components/detail-information";
@@ -13,6 +13,7 @@ import Recognize from "components/recognize";
 import "./app.less";
 import { Switch } from "react-router";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
+
 
 
 class App extends React.Component {
@@ -40,14 +41,15 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <Router>
+        {/* <Router>
           <div>
             <Route exact path="/" component={IosLogin} />
             <Route path="/Recognize" component={Recognize} />
             <Route match='match' path='/DetailInformation'  component={DetailInformation}/>
             <Route path='/DetailInformation/Vartar'  component={Vartar}/>
           </div>
-        </Router>
+        </Router> */}
+        cejkdkj
       </div>
     );
   }
